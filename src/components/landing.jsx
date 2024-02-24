@@ -5,7 +5,7 @@ import Todocontainer from "./todocontainer";
 const Landing = ()=>{
     const data = useLocation()
     return(
-    <div className="bg-black p-16 h-[100vh]">
+    <div className="md:bg-black md:p-16 h-auto">
       <div className="bg-[#efefef] p-16 rounded-md">
         <Header username={data.state.user} />
         <div className="flex gap-7 justify-between my-5 flex-wrap">
