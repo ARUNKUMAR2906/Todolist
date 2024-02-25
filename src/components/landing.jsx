@@ -5,8 +5,8 @@ import Todocontainer from "./todocontainer";
 const Landing = ()=>{
     const data = useLocation()
     return(
-    <div className="sm:bg-black p-4 sm:p-16 h-[100vh] flex items-center justify-center">
-      <div className="bg-[#efefef] p-10 md:p-16 rounded-md">
+    <div className="sm:bg-black p-4 sm:p-16 h-[100vh] md:flex md:items-center md:justify-center">
+      <div className="bg-[#efefef] p-10 rounded-md">
         <Header username={data.state.user} />
         <div className="flex gap-7 justify-between my-5 flex-wrap">
           <Card bg={"#8272DA"} title={"23"} subtitle={"Banglore"} />
