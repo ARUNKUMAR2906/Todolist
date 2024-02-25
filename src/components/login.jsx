@@ -28,7 +28,7 @@ const Login = (props) => {
     }
   };
   return (
-    <div className="bg-black p-10 h-[100vh]">
+    <div className="bg-black p-10 h-[100vh] flex items-center justify-center">
       <div className="bg-[#efefef] p-10 rounded-md">
         <h1 className="text-3xl font font-medium">Hey Hi!</h1>
         {ruser ? (
@@ -42,14 +42,14 @@ const Login = (props) => {
           <input
             type="text"
             value={euname}
-            className="border border-black rounded-md w-52 p-2"
+            className="border border-black rounded-md w-44 md:w-52 p-2"
             placeholder="username"
             onChange={handleeuname}
           />
           <input
             type="text"
             value={epword}
-            className="border border-black rounded-md w-52 p-2"
+            className="border border-black rounded-md w-44 md:w-52 p-2"
             placeholder="password"
             onChange={handleepword}
           />
